@@ -35,4 +35,8 @@ if (!is_null($events['events'])) {
         }	
     }
 }
+else 
+{
+    echo 'content is null';
+}
 echo "OK";
